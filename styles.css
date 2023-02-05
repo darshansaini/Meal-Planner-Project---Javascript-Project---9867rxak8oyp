@@ -1,1 +1,227 @@
 
+body {
+	cursor:url(pizza.cur),auto;
+	background : white;
+	margin:0px;
+	background-image:url("https://images.unsplash.com/photo-1543751416-705d3e34d02a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+}
+
+nav{
+background-color: #ee634e;
+height: 60px;
+margin-top:5px;
+box-shadow: 0 8px 30px rgba(14,21,47,0.6);
+}
+
+#height{
+margin-right:55px;
+}
+
+#weight{
+margin-right:55px;
+}
+
+#gender{
+margin-right:40px;
+width:181px;
+}
+
+#activity{
+margin-left:30px;
+width:181px;
+}
+
+.nav-h{
+color:black;
+margin-left:30px;
+font-family:Copperplate, Papyrus, fantasy;
+padding-top:12px;
+text-decoration:underline;
+}
+
+#mealsbtn{
+background-color : red;
+color:white;
+width:150px;
+cursor:url(pizza.cur),auto;
+}
+
+input{
+background-color:transparent;
+border-color:red;
+color:red;
+text-align:center;
+appearance: none;
+}
+
+select{
+background-color:transparent;
+border-color:red;
+color:red;
+cursor:url(pizza.cur),auto;
+appearance: none;
+text-align:center;
+}
+
+option{
+background-color:#382818;
+
+}
+
+::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: red;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: red;
+ }
+ 
+ #recepi{
+ Height:600px;
+ Width:900px;
+ background-image:url("PngItem_4869992.png");	
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ }
+ 
+
+#card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-heading{
+color:#ee634e;
+font-size:17px;
+font-family:Copperplate, Papyrus, fantasy;
+}
+
+footer{
+background-color:black;
+margin-bottom:0px;
+}
+
+#overlay {
+  position: fixed;
+  display: inline-block;
+  width: 10%;
+  height: 50%;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(623,0,0,0.5);
+  z-index: 9;
+  cursor: pointer;
+}
+img{
+height:250px;
+}
+
+.cover{
+display:inline-block;
+}
+
+#meals{
+height:300px;
+}
+
+.nav-tabs{
+padding-left:40px;
+color:brown;
+text-align:center;
+}
+
+#steps{
+padding-left:70px;
+padding-right:50px;
+text-align:left;
+font-size:13px;
+}
+
+#equip{
+padding-left:70px;
+padding-right:50px;
+font-size:13PX;
+}
+
+#list-of-ingredients{
+padding-bottom:
+font-size:13px;
+}
+
+ #recepi{
+  transition: .2s ease-out;
+}
+
+#recepi:hover {
+  box-shadow: 0 40px 40px rgba(20,21,47,0.4);
+  transform: translate3d(20px,-20px,20px);
+}
+
+img{
+  transition: .2s ease-out;
+}
+
+img:hover {
+  box-shadow: 0 40px 40px rgba(20,21,47,0.4);
+  transform: translate3d(20px,-20px,20px);
+}
+
+#tray{
+padding-top:50px;
+padding-left:50px;
+padding-right:50px;
+}
+
+recepi-list{
+
+}
+
+.cards{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  color: #ee634e; 
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid transparent;
+  box-shadow: 5px 10px 18px #888888;
+  padding-bottom: 20px;
+}
+@media (max-width: 300px) {
+  .card{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.top{
+  text-align: center;
+  padding-top: 10px;
+}
+.card-title{
+    width: 180px;
+    height: 56px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+}
+.btn2{
+  background-color:#ee634e;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+
+}
+.card-body{
+  background-color:#ee634e;
+   color: white;
+}
